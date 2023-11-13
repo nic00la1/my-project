@@ -1,2 +1,1 @@
-# my-project
-I am learning Angular 17
+# siema ucze sie Angulara 17
