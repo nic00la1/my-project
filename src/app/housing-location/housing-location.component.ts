@@ -13,8 +13,10 @@ import { Housinglocation } from '../housinglocation';
         [src]="housingLocation.photo"
         alt="Exterior photo of {{ housingLocation.name }}"
       />
-      <h2 class="listing-heading"></h2>
-      <p class="listing-location"></p>
+      <h2 class="listing-heading">{{ housingLocation.name }}</h2>
+      <p class="listing-location">
+        {{ housingLocation.city }}, {{ housingLocation.state }}
+      </p>
     </section>
   `,
   styleUrl: './housing-location.component.css',
